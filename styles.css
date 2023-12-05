@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+.container
+{
+	background-color:rgb(211, 211, 211);
+	width:80vw;
+	height:40vw;
+	border:5px solid black;
+	border-radius:7vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+.red
+{
+	height:40%;
+	width:20%;
+	background-color:red;
+	border-radius:50%;
+	margin-inline:10px;
+	transform:background-color 2s ease;
+}
+.green{
+	height:40%;
+	width:20%;
+	background-color:green;
+	border-radius:50%;
+	margin-inline:10px;
+}
+.yellow{
+	height:40%;
+	width:20%;
+	background-color:yellow;
+	border-radius:50%;
+	margin-inline:10px;
+}
+
+@media screen and (max-width:700px){
+	.red{
+		background-color:green;
+	}
+	.green
+	{
+		background-color:yellow;
+	}
+	.yellow{
+		background-color:red;
+	}
+}
+@media screen and (max-width:600px){
+	.red{
+		background-color:yellow;
+	}
+	.green
+	{
+		background-color:red;
+	}
+	.yellow{
+		background-color:green;
+	}
+}
+
